@@ -14,7 +14,7 @@ pipeline {
                 echo 'Hello, JDK'
                 sh 'java -version'
                 echo 'jenkins version'
-                sh 'jenkins -version'
+                sh 'jenkins --version'
                 
             }
         }
